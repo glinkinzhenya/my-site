@@ -93,16 +93,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        //gap: 50px;
 
         min-height: 100vh;
 
         &__title {
+            margin: 0;
             font-style: normal;
             font-weight: 700;
-            font-size: 64px;
+            font-size: 130px;
             line-height: 140%;
             color: white;
+                opacity: 0.5;
         }
 
         &__description {
@@ -111,6 +113,8 @@
             font-size: 48px;
             line-height: 140%;
             color: white;
+            margin-bottom: 50px;
+                opacity: 0.5;
         }
 
         &__action {

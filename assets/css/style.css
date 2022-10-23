@@ -388,15 +388,17 @@ ul
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 50px;
 }
 .header-content__title
 {
-    font-size: 64px;
+    font-size: 130px;
     font-weight: 700;
     font-style: normal;
     line-height: 140%;
 
+    margin: 0;
+
+    opacity: .5;
     color: white;
 }
 .header-content__description
@@ -406,6 +408,9 @@ ul
     font-style: normal;
     line-height: 140%;
 
+    margin-bottom: 50px;
+
+    opacity: .5;
     color: white;
 }
 .header-content__action-link
