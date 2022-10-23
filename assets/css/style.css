@@ -417,7 +417,7 @@ ul
 {
     padding: 10px 10px;
 
-    border: 1px solid black;
+    opacity: .5;
+    border: 1px solid white;
     border-radius: 15px;
-    background-color: red;
 }
