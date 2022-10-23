@@ -316,7 +316,7 @@ ul
 
     display: grid;
 
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr auto;
 }
 .header-menu__left-list
 {
@@ -379,14 +379,35 @@ ul
 {
     border-bottom: 3px solid red;
 }
-.header-menu__right-link.action
+.header-menu__language
+{
+    position: absolute;
+    top: 35%;
+    right: 2%;
+}
+.header-menu__language-link
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    -webkit-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+}
+.header-menu__language-link:hover
+{
+    border-bottom: 3px solid red;
+}
+.header-menu__language-link.action
 {
     padding: 4px 5px;
 
     border-radius: 5px;
     background-color: red;
 }
-.header-menu__right-link.action:hover
+.header-menu__language-link.action:hover
 {
     border-bottom: none;
 }
