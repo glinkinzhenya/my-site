@@ -246,6 +246,8 @@ body
 {
     font-family: 'TT Norms', 'sans-serif';
     font-weight: 400;
+
+    overflow-x: hidden;
 }
 
 a
@@ -289,14 +291,18 @@ ul
 {
     position: absolute;
     z-index: -2;
+    top: 50%;
+    left: 50%;
 
-    width: 100vw;
-    min-height: 100vh;
+    width: 105vw;
+    min-height: 105vh;
+
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 
     background-image: url(../img/background.gif);
     background-size: cover;
-    -webkit-box-shadow: 0 0 50px #000104;
-            box-shadow: 0 0 50px #000104;
 
     -webkit-filter: blur(3px);
             filter: blur(3px);
@@ -359,6 +365,8 @@ ul
 }
 .header-menu__right-link.action
 {
+    padding: 4px 5px;
+
     border-radius: 5px;
     background-color: red;
 }
@@ -406,5 +414,5 @@ ul
 
     border: 1px solid black;
     border-radius: 15px;
-    background-color: burlywood;
+    background-color: red;
 }

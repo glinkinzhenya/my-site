@@ -5,29 +5,23 @@
     min-height: 100vh;
 
     &-bg {
-        //position: absolute;
-
-        // background-color: red;
+  
         background-image: url(../img/background.gif);
         background-size: cover;
         filter: blur(3px);
-
-        // box-shadow: inset 0px 0px 50px #000104;
-        box-shadow: 0px 0px 50px #000104;
-
-
-        min-height: 100vh;
-        width: 100vw;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 105vh;
+        width: 105vw;
         position: absolute;
         z-index: -2;
-
 
     }
 
 
     &-container {
-        // background-color: green;
-        //position: absolute;
+    
     }
 
     &-menu {
@@ -35,12 +29,10 @@
         top: 7%;
         left: 0;
         right: 0;
-        // background-color: red;
         display: grid;
         grid-template-columns: 1fr auto 1fr;
 
         &__left {
-            //background-color: yellow;
 
             &-list {
                 display: flex;
@@ -69,7 +61,6 @@
 
 
         &__right {
-            //background-color: orange;
 
             &-list {
                 display: flex;
@@ -88,9 +79,9 @@
                 line-height: 150%;
 
                 &.action {
-                    //border: 2px solid red  ;
                     background-color: red;
                     border-radius: 5px;
+                    padding: 4px 5px;
                 }
             }
 
@@ -130,7 +121,7 @@
                 padding: 10px 10px;
                 border: 1px solid black;
                 border-radius: 15px;
-                background-color: burlywood;
+                background-color: red;
             }
         }
     }
