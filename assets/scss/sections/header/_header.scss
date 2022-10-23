@@ -115,7 +115,7 @@
             margin: 0;
             font-style: normal;
             font-weight: 700;
-            font-size: 130px;
+            font-size: 120px;
             line-height: 140%;
             color: white;
             opacity: 0.5;
@@ -123,19 +123,25 @@
 
         &__description {
             font-style: normal;
-            font-weight: 700;
-            font-size: 48px;
+            font-weight: 400;
+            font-size: 20px;
             line-height: 140%;
             color: white;
             margin-bottom: 50px;
             opacity: 0.5;
+            letter-spacing: 5px;
+           
         }
 
         &__action {
-
-
+            position: absolute;
+            bottom: 10%;
 
             &-link {
+
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
                 padding: 10px 10px;
                 border: 1px solid red;
                 border-radius: 15px;
