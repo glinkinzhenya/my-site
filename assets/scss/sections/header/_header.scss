@@ -24,7 +24,9 @@
     &-menu {
 
         &__left {
-            &-list {}
+            &-list {
+                display: flex;
+            }
 
             &-item {}
 
