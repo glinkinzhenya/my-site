@@ -5,7 +5,7 @@
     min-height: 100vh;
 
     &-bg {
-  
+
         background-image: url(../img/background.gif);
         background-size: cover;
         filter: blur(3px);
@@ -20,9 +20,7 @@
     }
 
 
-    &-container {
-    
-    }
+    &-container {}
 
     &-menu {
         position: absolute;
@@ -54,7 +52,7 @@
                 //padding-top: 15px;
 
                 &:hover {
-                 
+
                     border-bottom: 3px solid red;
                 }
             }
@@ -86,17 +84,18 @@
                 line-height: 150%;
                 transition: 0.5s;
 
-                    &:hover {
-                            border-bottom: 3px solid red;
-                        }
+                &:hover {
+                    border-bottom: 3px solid red;
+                }
 
                 &.action {
                     background-color: red;
                     border-radius: 5px;
                     padding: 4px 5px;
+
                     &:hover {
-                            border-bottom: none;
-                        }
+                        border-bottom: none;
+                    }
                 }
             }
 
@@ -119,7 +118,7 @@
             font-size: 130px;
             line-height: 140%;
             color: white;
-                opacity: 0.5;
+            opacity: 0.5;
         }
 
         &__description {
@@ -129,7 +128,7 @@
             line-height: 140%;
             color: white;
             margin-bottom: 50px;
-                opacity: 0.5;
+            opacity: 0.5;
         }
 
         &__action {
@@ -140,7 +139,8 @@
                 padding: 10px 10px;
                 border: 1px solid red;
                 border-radius: 15px;
-               transition: 0.5s;
+                transition: 0.5s;
+
                 &:hover {
                     background-color: red;
                     box-shadow: 0 0 20px red;
