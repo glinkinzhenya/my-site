@@ -1,0 +1,61 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.header {
+    &-bg {
+        position: absolute;
+
+        background-color: red;
+        background-image: url(../img/background.gif);
+        background-size: cover;
+        filter: blur(10px);
+
+        min-height: 100vh;
+        width: 100vw;
+
+
+    }
+
+
+    &-container {
+        position: absolute;
+    }
+
+    &-menu {
+
+        &__left {
+            &-list {}
+
+            &-item {}
+
+            &-link {}
+        }
+
+
+        &__logo {
+            &-image {}
+        }
+
+
+
+        &__right {
+
+            &-list {}
+
+            &-item {}
+
+            &-link {}
+
+        }
+    }
+
+    &-content {
+        &__title {}
+
+        &__description {}
+
+        &__action {
+            &-link {}
+        }
+    }
+}
