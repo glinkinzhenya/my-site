@@ -350,6 +350,10 @@ ul
 {
     border-bottom: 3px solid red;
 }
+.header-menu__logo
+{
+    margin-top: 12px;
+}
 .header-menu__right-list
 {
     display: -webkit-box;
