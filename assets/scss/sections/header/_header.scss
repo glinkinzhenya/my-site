@@ -52,10 +52,11 @@
                 font-size: 16px;
                 line-height: 150%;
                 transition: 0.5s;
-                //padding-top: 15px;
+                opacity: 0.5;
+
 
                 &:hover {
-
+opacity: 1;
                     border-bottom: 3px solid #dc365d;
                 }
             }
@@ -88,9 +89,11 @@
                 font-size: 16px;
                 line-height: 150%;
                 transition: 0.5s;
+                opacity: 0.5;
 
                 &:hover {
                     border-bottom: 3px solid #dc365d;
+                    opacity: 1;
                 }
 
             }

@@ -345,9 +345,12 @@ ul
     -webkit-transition: .5s;
          -o-transition: .5s;
             transition: .5s;
+
+    opacity: .5;
 }
 .header-menu__left-link:hover
 {
+    opacity: 1;
     border-bottom: 3px solid #dc365d;
 }
 .header-menu__logo
@@ -378,9 +381,12 @@ ul
     -webkit-transition: .5s;
          -o-transition: .5s;
             transition: .5s;
+
+    opacity: .5;
 }
 .header-menu__right-link:hover
 {
+    opacity: 1;
     border-bottom: 3px solid #dc365d;
 }
 .header-menu__language
