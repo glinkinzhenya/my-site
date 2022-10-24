@@ -348,7 +348,7 @@ ul
 }
 .header-menu__left-link:hover
 {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #dc365d;
 }
 .header-menu__logo
 {
@@ -381,7 +381,7 @@ ul
 }
 .header-menu__right-link:hover
 {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #dc365d;
 }
 .header-menu__language
 {
@@ -402,14 +402,14 @@ ul
 }
 .header-menu__language-link:hover
 {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #dc365d;
 }
 .header-menu__language-link.action
 {
     padding: 4px 5px;
 
     border-radius: 5px;
-    background-color: red;
+    background-color: #dc365d;
 }
 .header-menu__language-link.action:hover
 {
@@ -477,12 +477,12 @@ ul
          -o-transition: .5s;
             transition: .5s;
 
-    border: 1px solid red;
+    border: 1px solid #dc365d;
     border-radius: 15px;
 }
 .header-content__action-link:hover
 {
-    background-color: red;
-    -webkit-box-shadow: 0 0 20px red;
-            box-shadow: 0 0 20px red;
+    background-color: #dc365d;
+    -webkit-box-shadow: 0 0 20px #dc365d;
+            box-shadow: 0 0 20px #dc365d;
 }
