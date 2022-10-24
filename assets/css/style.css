@@ -492,3 +492,15 @@ ul
     -webkit-box-shadow: 0 0 20px #dc365d;
             box-shadow: 0 0 20px #dc365d;
 }
+
+.services-box
+{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.services-box__item
+{
+    background-color: brown;
+}

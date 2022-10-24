@@ -1,0 +1,32 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.main {}
+
+.services {
+
+    &-container {}
+
+    &-title {}
+
+    &-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+
+        &__item {
+background-color: brown;
+
+            &-title {}
+
+            &-picture {}
+
+            &-image {}
+        }
+
+        &-window {
+            &__item {}
+        }
+
+    }
+}
