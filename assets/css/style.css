@@ -310,7 +310,7 @@ ul
 .header-menu
 {
     position: absolute;
-    top: 7%;
+    top: 5%;
     right: 0;
     left: 0;
 
@@ -608,7 +608,6 @@ ul
 
     width: 100%;
     height: 200px;
-    min-height: 280px;
     padding: 20px;
 
     opacity: .8;
@@ -673,4 +672,18 @@ ul
     background-color: #dc365d;
     -webkit-box-shadow: 0 0 20px #dc365d;
             box-shadow: 0 0 20px #dc365d;
+}
+
+.portfolio
+{
+    height: 100vh;
+
+    background-color: red;
+}
+.portfolio__title
+{
+    margin-bottom: 50px;
+    padding-top: 50px;
+
+    text-align: center;
 }
