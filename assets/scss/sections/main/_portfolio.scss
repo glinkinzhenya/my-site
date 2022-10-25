@@ -2,9 +2,10 @@
 @use "../../mixins" as *;
 
 .portfolio {
-    height: 100vh;
+   //height: 100vh;
+min-height: 100vh;
     background-color: red;
-
+padding-bottom: 20px;
 
     &__title {
         text-align: center;
@@ -16,11 +17,21 @@
 }
 
 .portfolio-bootstrap__image {
-    width: 70%;
+    max-width: 80%;
+    height: auto;
     border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.test__picture {
+
+}
+
+.test__image {
+    width: 80%;
+    height: auto;
 }
 

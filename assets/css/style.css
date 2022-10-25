@@ -678,7 +678,8 @@ ul
 
 .portfolio
 {
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 20px;
 
     background-color: red;
 }
@@ -693,9 +694,16 @@ ul
 {
     display: block;
 
-    width: 70%;
+    max-width: 80%;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
 
     border-radius: 20px;
+}
+
+.test__image
+{
+    width: 80%;
+    height: auto;
 }
