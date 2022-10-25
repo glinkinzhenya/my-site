@@ -449,8 +449,17 @@ ul
 
     margin: 0;
 
+    cursor: pointer;
+    -webkit-transition: 3s;
+         -o-transition: 3s;
+            transition: 3s;
+
     opacity: .5;
     color: white;
+}
+.header-content__title:hover
+{
+    scale: 1.1;
 }
 .header-content__description
 {
@@ -561,6 +570,10 @@ ul
 .services-box__item-title
 {
     color: white;
+}
+.services-box__item-image
+{
+    width: 80%;
 }
 .services-window
 {

@@ -20,9 +20,7 @@
     }
 
 
-    &-container {
-       
-    }
+    &-container {}
 
     &-menu {
         position: absolute;
@@ -31,7 +29,8 @@
         right: 0;
         display: grid;
         grid-template-columns: 1fr auto 1fr auto;
- //background-color: red;
+
+        //background-color: red;
         &__left {
             // background-color: red;
 
@@ -56,7 +55,7 @@
 
 
                 &:hover {
-opacity: 1;
+                    opacity: 1;
                     border-bottom: 3px solid #dc365d;
                 }
             }
@@ -65,6 +64,7 @@ opacity: 1;
 
         &__logo {
             margin-top: 12px;
+
             &-image {}
         }
 
@@ -147,7 +147,15 @@ opacity: 1;
             font-size: 120px;
             line-height: 140%;
             color: white;
+           
             opacity: 0.5;
+            transition: 3.0s;
+            cursor: pointer;
+            &:hover {
+                scale: 1.1;
+              
+            }
+
         }
 
         &__description {
@@ -192,3 +200,4 @@ opacity: 1;
 .header-menu__language {}
 
 .header-menu__language-link {}
+
