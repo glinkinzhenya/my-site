@@ -5,14 +5,22 @@
     height: 100vh;
     background-color: red;
 
-    &-container {}
-
 
     &__title {
         text-align: center;
         padding-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     &-bootstrap {}
 }
+
+.portfolio-bootstrap__image {
+    width: 70%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+

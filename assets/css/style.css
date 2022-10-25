@@ -254,7 +254,7 @@ a
 {
     text-decoration: none;
 
-    color: white;
+    color: white !important;
 }
 
 ul
@@ -351,6 +351,7 @@ ul
 .header-menu__left-link:hover
 {
     opacity: 1;
+    color: white;
     border-bottom: 3px solid #dc365d;
 }
 .header-menu__logo
@@ -387,6 +388,7 @@ ul
 .header-menu__right-link:hover
 {
     opacity: 1;
+    color: white;
     border-bottom: 3px solid #dc365d;
 }
 .header-menu__language
@@ -682,8 +684,18 @@ ul
 }
 .portfolio__title
 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding-top: 50px;
 
     text-align: center;
+}
+.portfolio-bootstrap__image
+{
+    display: block;
+
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 20px;
 }
