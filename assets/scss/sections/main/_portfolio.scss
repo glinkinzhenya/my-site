@@ -2,16 +2,38 @@
 @use "../../mixins" as *;
 
 .portfolio {
-   //height: 100vh;
-min-height: 100vh;
-background-color: #5d666a;
-padding-bottom: 20px;
+
+    min-height: 100vh;
+    padding-bottom: 20px;
+    position: relative;
+
+    &-bg {
+        background-image: url(../img/istockphoto-1334459498-640_adpp_is.gif);
+        filter: blur(3px);
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        position: absolute;
+        z-index: -2;
+        //display: flex;
+        //align-items: center;
+        // top: 50%;
+        //left: 50%;
+        //transform: translate(-50%, -50%);
+
+    }
 
     &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 140%;
         text-align: center;
+
         padding-top: 50px;
         margin-bottom: 20px;
-    color: white;
+        color: white;
+        opacity: 2;
     }
 
     &-bootstrap {}
@@ -19,7 +41,7 @@ padding-bottom: 20px;
 
 .portfolio-bootstrap__image {
     width: auto;
-    height: 70vh;
+    height: 80vh;
     border-radius: 20px;
     display: block;
     margin-left: auto;
@@ -27,12 +49,9 @@ padding-bottom: 20px;
 
 }
 
-.test__picture {
-
-}
+.test__picture {}
 
 .test__image {
     width: auto;
     height: 80vh;
 }
-

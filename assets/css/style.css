@@ -678,18 +678,38 @@ ul
 
 .portfolio
 {
+    position: relative;
+
     min-height: 100vh;
     padding-bottom: 20px;
+}
+.portfolio-bg
+{
+    position: absolute;
+    z-index: -2;
 
-    background-color: #5d666a;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(../img/istockphoto-1334459498-640_adpp_is.gif);
+    background-size: cover;
+
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
 }
 .portfolio__title
 {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 140%;
+
     margin-bottom: 20px;
     padding-top: 50px;
 
     text-align: center;
 
+    opacity: 2;
     color: white;
 }
 .portfolio-bootstrap__image
@@ -697,7 +717,7 @@ ul
     display: block;
 
     width: auto;
-    height: 70vh;
+    height: 80vh;
     margin-right: auto;
     margin-left: auto;
 
