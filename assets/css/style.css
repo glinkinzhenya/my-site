@@ -681,7 +681,7 @@ ul
     min-height: 100vh;
     padding-bottom: 20px;
 
-    background-color: red;
+    background-color: #5d666a;
 }
 .portfolio__title
 {
@@ -689,13 +689,15 @@ ul
     padding-top: 50px;
 
     text-align: center;
+
+    color: white;
 }
 .portfolio-bootstrap__image
 {
     display: block;
 
-    max-width: 80%;
-    height: auto;
+    width: auto;
+    height: 70vh;
     margin-right: auto;
     margin-left: auto;
 
@@ -704,6 +706,6 @@ ul
 
 .test__image
 {
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 80vh;
 }

@@ -4,21 +4,22 @@
 .portfolio {
    //height: 100vh;
 min-height: 100vh;
-    background-color: red;
+background-color: #5d666a;
 padding-bottom: 20px;
 
     &__title {
         text-align: center;
         padding-top: 50px;
         margin-bottom: 20px;
+    color: white;
     }
 
     &-bootstrap {}
 }
 
 .portfolio-bootstrap__image {
-    max-width: 80%;
-    height: auto;
+    width: auto;
+    height: 70vh;
     border-radius: 20px;
     display: block;
     margin-left: auto;
@@ -31,7 +32,7 @@ padding-bottom: 20px;
 }
 
 .test__image {
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 80vh;
 }
 
