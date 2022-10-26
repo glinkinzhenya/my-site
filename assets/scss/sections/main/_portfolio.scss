@@ -20,6 +20,7 @@
     }
 
     &__title {
+        position: relative;
         font-style: normal;
         font-weight: 700;
         font-size: 50px;
@@ -29,8 +30,19 @@
         padding-top: 30px;
         margin-bottom: 10px;
         color: white;
-
+        //border-bottom: 3px solid red;
         opacity: 0.5;
+
+        &::after {
+            content: "";
+            height: 5px;
+            width: 260px;
+            background-color: #dc365d;
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 
     &-bootstrap {}
@@ -46,9 +58,14 @@
 
 }
 
-.test__picture {}
+.test__picture {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
 
 .test__image {
-    width: auto;
-    height: 80vh;
+  border-radius: 20px;
+        width: 80%;
+       
 }
