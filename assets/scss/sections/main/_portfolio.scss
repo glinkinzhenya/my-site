@@ -11,9 +11,9 @@
     background-position: center;
 
 
-&-container {
-    max-width: 80vw;
-}
+    &-container {
+        max-width: 80vw;
+    }
 
     &__title {
         position: relative;
@@ -26,13 +26,21 @@
         padding-top: 30px;
         margin-bottom: 50px;
         color: white;
-      
         opacity: 0.5;
+        letter-spacing: 4px;
+        opacity: 0.9;
+        transition: 3.0s;
+
+        &:hover {
+            scale: 1.1;
+        }
+
+
 
         &::after {
             content: "";
             height: 5px;
-            width: 260px;
+            width: 300px;
             background-color: #dc365d;
             position: absolute;
             bottom: -2px;
@@ -45,18 +53,10 @@
     &-bootstrap {}
 }
 
-.portfolio-bootstrap__image {
+.portfolio-bootstrap__image {}
 
-}
+.portfolio-bootstrap__picture {}
 
-.portfolio-bootstrap__picture {
+.carousel-inner {}
 
-}
-
-.carousel-inner {
-   
-}
-.carousel-item {
-
-} 
-
+.carousel-item {}

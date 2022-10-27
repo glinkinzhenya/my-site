@@ -24,11 +24,17 @@
         font-size: 50px;
         line-height: 140%;
         text-align: center;
+        letter-spacing: 4px;
+        opacity: 0.9;
+            transition: 3.0s;
+            &:hover {
+                    scale: 1.1;
+                }
 
         &::after {
             content: "";
             height: 5px;
-            width: 312px;
+            width: 375px;
             background-color: #dc365d;
             position: absolute;
             bottom: -2px;

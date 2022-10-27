@@ -13,7 +13,7 @@
         top: 50%;
         transform: translate(-50%, -50%);
         min-height: 105vh;
-        width: 105vw;
+        width: 100vw;
         position: absolute;
         z-index: -2;
 
@@ -155,7 +155,6 @@
             cursor: pointer;
             &:hover {
                 scale: 1.1;
-              
             }
 
         }
