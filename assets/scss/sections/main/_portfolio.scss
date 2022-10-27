@@ -2,22 +2,18 @@
 @use "../../mixins" as *;
 
 .portfolio {
-
+    background-image: url(../img/IMAGE\ 2022-10-26\ 13:55:28.jpg);
     min-height: 100vh;
     padding-bottom: 20px;
-    // position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center;
 
-    &-bg {
-        // background-image: url(../img/istockphoto-1334459498-640_adpp_is.gif);
-        background-image: url(../img/IMAGE\ 2022-10-26\ 13:55:28.jpg);
-        min-height: 100vh;
-        width: 100vw;
-        background-size: cover;
-        position: absolute;
-        z-index: -2;
-        filter: brightness(40%) blur(3px);
 
-    }
+&-container {
+    max-width: 80vw;
+}
 
     &__title {
         position: relative;
@@ -28,9 +24,9 @@
         text-align: center;
 
         padding-top: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
         color: white;
-        //border-bottom: 3px solid red;
+      
         opacity: 0.5;
 
         &::after {
@@ -45,27 +41,22 @@
         }
     }
 
+
     &-bootstrap {}
 }
 
 .portfolio-bootstrap__image {
-    width: auto;
-    height: 80vh;
-    border-radius: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
-.test__picture {
-        display: flex;
-        justify-content: center;
-        align-content: center;
+.portfolio-bootstrap__picture {
+
 }
 
-.test__image {
-  border-radius: 20px;
-        width: 80%;
-       
+.carousel-inner {
+   
 }
+.carousel-item {
+
+} 
+
