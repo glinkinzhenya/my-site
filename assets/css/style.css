@@ -621,6 +621,8 @@ ul
 .services-window
 {
     position: relative;
+
+    margin-bottom: 20px;
 }
 .services-window__item
 {
