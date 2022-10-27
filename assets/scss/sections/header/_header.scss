@@ -23,7 +23,7 @@
     &-container {}
 
     &-menu {
-       position: absolute;
+        position: absolute;
         top: 5%;
         left: 0;
         right: 0;
@@ -149,10 +149,11 @@
             font-size: 120px;
             line-height: 140%;
             color: white;
-           
+
             opacity: 0.5;
             transition: 3.0s;
             cursor: pointer;
+
             &:hover {
                 scale: 1.1;
             }
@@ -202,3 +203,25 @@
 
 .header-menu__language-link {}
 
+.header-arrow {
+    position: fixed;
+    z-index: 3;
+    bottom: 4%;
+    right: 2%;
+    border: solid 1px white;
+    padding: 5px;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 1s;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.header-arrow__link {}
+
+.header-arrow__image {
+    width: 30px;
+
+}
