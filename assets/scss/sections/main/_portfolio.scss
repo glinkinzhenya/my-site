@@ -18,7 +18,7 @@
     &__title {
         position: relative;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 50px;
         line-height: 140%;
         text-align: center;
@@ -39,7 +39,7 @@
 
         &::after {
             content: "";
-            height: 5px;
+            height: 3px;
             width: 280px;
             background-color: #dc365d;
             position: absolute;
