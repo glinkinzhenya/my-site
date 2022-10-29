@@ -801,11 +801,13 @@ ul
     display: flex;
 
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+
+    background-color: green;
 
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -822,7 +824,7 @@ ul
     width: 100vw;
     height: 100vh;
 
-    background-image: url(../img/videoplayback.gif);
+    background-size: cover;
 
     -webkit-filter: blur(4px);
             filter: blur(4px);
@@ -834,7 +836,7 @@ ul
     font-style: normal;
     line-height: 140%;
 
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
     -webkit-transition: 3s;
          -o-transition: 3s;
@@ -846,6 +848,10 @@ ul
     opacity: .9;
     color: black;
 }
+.nextwork__title-accent
+{
+    color: red;
+}
 .nextwork__title:hover
 {
     scale: 1.1;
@@ -855,6 +861,8 @@ ul
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+
+    margin-bottom: 50px;
 
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -874,8 +882,6 @@ ul
     border: 1px solid black;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, .3);
-    -webkit-box-shadow: inset 0 0 15px black;
-            box-shadow: inset 0 0 15px black;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -884,6 +890,10 @@ ul
     -ms-flex-align: center;
     align-items: center;
     gap: 20px;
+}
+.nextwork-box__item-title
+{
+    color: white;
 }
 .nextwork-box__item-picture
 {
@@ -898,4 +908,60 @@ ul
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+}
+.nextwork-technology__title
+{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+
+    position: relative;
+
+    margin-bottom: 70px;
+
+    -webkit-transition: 3s;
+         -o-transition: 3s;
+            transition: 3s;
+    text-align: center;
+    letter-spacing: 4px;
+
+    opacity: .5;
+    opacity: .9;
+    color: black;
+}
+.nextwork-technology__title::after
+{
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+
+    width: 280px;
+    height: 3px;
+
+    content: '';
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+
+    background-color: #dc365d;
+}
+.nextwork-technology__box
+{
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.nextwork-technology__box-picture
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    background-color: red;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
