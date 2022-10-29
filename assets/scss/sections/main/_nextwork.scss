@@ -13,13 +13,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: green;
+    // background-color: green;
 
 
     &-bg {
-        height: 100vh;
+        height: 100%;
         width: 100vw;
-       // background-image: url(../img/videoplayback.gif);
+       background-image: url(../img/videoplayback.gif);
         filter: blur(4px);
         position: absolute;
         z-index: -2;
