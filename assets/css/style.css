@@ -792,6 +792,7 @@ ul
 
     background-color: #dc365d;
 }
+
 .nextwork
 {
     position: relative;
@@ -958,9 +959,93 @@ ul
     display: -ms-flexbox;
     display: flex;
 
-    background-color: red;
-
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+.money
+{
+    position: relative;
+
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+.money-bg
+{
+    position: absolute;
+    z-index: -2;
+
+    width: 100vw;
+    height: 100%;
+
+    background-image: url(../img/IMAGE\ 2022-10-26\ 13:55:28.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.money-title
+{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+
+    padding: 50px;
+
+    text-align: center;
+    letter-spacing: 4px;
+
+    color: white;
+}
+.money-title__md
+{
+    color: red;
+}
+.money-box
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    gap: 20px;
+}
+.money-item
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    min-width: 300px;
+    min-height: 70vh;
+    padding: 20px;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .5);
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    gap: 20px;
+}
+.money-item__title
+{
+    color: white;
+}
+.money-item__price
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.money-item__price-number
+{
+    color: white;
+}
+.money-item__content-text
+{
+    color: white;
 }
