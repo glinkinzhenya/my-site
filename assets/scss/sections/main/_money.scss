@@ -1,15 +1,12 @@
 @use '../../presets' as *;
 @use '../../mixins' as *;
 
-.money
-{
+.money {
     position: relative;
 
     min-height: 100vh;
-    padding-bottom: 100px;
 
-    &-bg
-    {
+    &-bg {
         position: absolute;
         z-index: -2;
 
@@ -23,8 +20,7 @@
 
 
 
-    &-title
-    {
+    &-title {
         font-size: 50px;
         font-weight: 500;
         font-style: normal;
@@ -37,27 +33,24 @@
 
         color: white;
 
-        &__md
-        {
+        &__md {
             color: red;
         }
     }
 
-    &-box
-    {
+    &-box {
         display: flex;
 
         justify-content: space-around;
         gap: 20px;
     }
 
-    &-item
-    {
+    &-item {
         display: flex;
         flex-direction: column;
 
         min-width: 300px;
-        min-height: 70vh;
+
         padding: 20px;
 
         border: 1px solid white;
@@ -67,27 +60,39 @@
         gap: 20px;
 
 
-        &__title
-        {
+        &__title {
             color: white;
         }
 
-        &__price
-        {
+        &__price {
             display: flex;
 
-            &-number
-            {
+            &-number {
                 color: white;
             }
         }
 
-        &__content
-        {
-            &-text
-            {
+        &__content {
+            &-text {
                 color: white;
             }
         }
+         &__button {
+            color: red;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            &:hover {
+                background-color: black;
+            }
+         }
     }
+  
+}
+
+.test {
+    width: 500px;
 }
