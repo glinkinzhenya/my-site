@@ -1,8 +1,7 @@
 @use '../../presets' as *;
 @use '../../mixins' as *;
 
-.portfolio
-{
+.portfolio {
     display: flex;
 
     min-height: 100vh;
@@ -15,13 +14,11 @@
     align-items: center;
 
 
-    &-container
-    {
+    &-container {
         max-width: 80vw;
     }
 
-    &__title
-    {
+    &__title {
         font-size: 50px;
         font-weight: 500;
         font-style: normal;
@@ -40,15 +37,13 @@
         opacity: .9;
         color: white;
 
-        &:hover
-        {
+        &:hover {
             scale: 1.1;
         }
 
 
 
-        &::after
-        {
+        &::after {
             position: absolute;
             bottom: -2px;
             left: 50%;
@@ -63,3 +58,8 @@
         }
     }
 }
+
+// .test {
+// //    margin-left: auto;
+// //    margin-right: auto;
+// }
